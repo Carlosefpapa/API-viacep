@@ -39,7 +39,7 @@ function getAddressViacep (String $cep){
 
     if ( ! empty( $address->erro ) ) {
         $address = addressEmpty();
-        $address->erro = 'Este CEP não existe';
+        $address->erro = 'Este CEP não existe.';
     }
 
     return $address;
