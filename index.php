@@ -14,7 +14,7 @@
 </head>
 <body>
     <form method="post">
-        <p><strong>Digite o CEP pra encontrar o endereço.</strong></p>
+        <p><strong>Digite o CEP para encontrar o endereço.</strong></p>
         <input type="text" placeholder="Digite um cep..." name="cep" value="<?php echo $address->cep; ?>">
         <button type="submit">Pesquisar</button>
         
