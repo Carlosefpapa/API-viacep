@@ -1,0 +1,14 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+    margin: 10vh auto;
+    justify-content: space-around;
+}
+
+.error {
+    color: red;
+    font-size: 80%;
+}
